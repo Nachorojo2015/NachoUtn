@@ -1,0 +1,149 @@
+h1{
+	background-color: black;
+	color: red;
+	font-family: Georgia;
+	font-size: 20px;
+	font-weight: 200px;
+	display: inline-block;
+
+}
+
+[universidad="utn"]{
+	color: purple;
+	font-family: cursive;
+	font-weight: 300px;
+	font-size: 30px;
+}
+
+.messirve{
+	color: violet;
+	font-size: 18px;
+}
+
+[hola="buenas"]{
+	color: red;
+	font-size: 18px;
+	text-decoration-line: underline;
+	font-family: Georgia;
+	font-weight: 1px;
+}
+
+h2{
+	line-height: 3;
+	color: grey;
+	font-weight: 100px;
+	font-family: sans-serif;
+
+}
+
+img{
+	display: block;
+	margin-left: 20px;
+}
+
+.active__ol-li--hola{
+     color: black;
+     background-color: red;
+     border: 3px groove blue;
+     box-shadow: 10px 3px 10px black;
+     display:inline;
+     margin-left: 5px;
+     font-family: Arial;
+     font-weight: 300px;
+     border-radius: 7px;
+     padding: 5px;
+
+
+}
+
+.active__ol-li--si{
+	color: orange;
+	background-color: green;
+	border: 3px ;
+	margin-top: 15px;
+	margin-left: 5px;
+	height: 40px;
+	width: 110px;
+	padding:5px;
+	line-height: -8;
+	border-radius:10px;
+	border: 5px inset grey;
+	box-shadow: 10px 3px 11px black;
+}
+
+.active__ol-li--bien{
+	color: blue;
+	background-color: orange;
+	border: 5px outset yellow;
+	width: 130px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 5px;
+	padding-left: 8px;
+	border-radius: 10px;
+	box-shadow: 10px 5px 11px black;
+}
+
+[avengers="marvel"]{
+	color: #000;
+	background-color: green;
+	width: 100px;
+	height: 40px;
+	margin-left: 8px;
+	padding-left: 5px;
+	border-radius: 15px;
+	font-size: 20px;
+	border:7px ridge red;
+	box-shadow: 10px 2px 15px black;
+}
+
+[peli="buena"]{
+	color: #000;
+	background-color: red;
+	width: 100px;
+	height: 40px;
+	font-size: 15px;
+	font-family: Arial;
+	border: 5px solid pink;
+	border-radius: 10px;
+	padding:5px;
+	margin-top: 10px;
+	margin-left: 8px;
+	box-shadow: 10px 3px 12px black;
+}
+
+[bastardos="no"]{
+	color: black;
+	background-color: grey;
+	width: 190px;
+	height: 40px;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding-left: 5px;
+	border: 7px inset blue;
+	box-shadow: 10px 5px 10px #000;
+}
+
+a:hover{
+	color: red;
+}
+
+.parrafo1{
+	font-family: georgia;
+	color: purple;
+	font-weight: 900px;
+	text-decoration: underline;
+}
+
+.parrafo2__span{
+	color: blue;
+	text-decoration: underline;
+	font-family: arial;
+}
+
+.parrafo3__span{
+	color: orange;
+	text-decoration-line: underline;
+}
