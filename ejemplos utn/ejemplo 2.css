@@ -1,0 +1,22 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	justify-content: center;
+	display: flex;
+	flex-direction: row-reverse;
+
+}
+
+.container div{
+    color: white;
+    margin-top: 200px;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    outline: 2px solid black;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 125px;
+}
