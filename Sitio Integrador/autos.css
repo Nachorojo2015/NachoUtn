@@ -1,0 +1,273 @@
+*{
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Ms Madi', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.nombre-compañia{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+a{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    align-items: center;
+    padding: 10px;
+}
+
+
+a img{
+    width: 30px;
+    border-radius: 7px;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+
+}
+
+.swiper{
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide img{
+   width: 100%;
+   height: 577px;
+}
+
+.container-cars{
+    display: flex;
+    margin: 10px;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-cars div img{
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.container-cars div{
+margin: 10px;
+padding: 20px;
+}
+
+.container-cars div p{
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.container-cars div span{
+    width: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.container-cars div h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cars-directions{
+    color: #111;
+    margin-top: 10px;
+    margin-right: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.cars-directions a{
+    color: #111;
+    text-decoration: none;
+}
+
+.cars-directions a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*ABOUT*/
+
+.c-img{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 200px auto;
+}
+
+.c-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.c-h4{
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -1200%);
+    color: white;
+}
+
+.c-h1{
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -200%);
+    color: white;
+}
+
+.c-p{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 70%);
+    color: white;
+    padding: 20px;
+}
+
+.tittle-best{
+    text-align: center;
+}
+
+.contenedor-offers{
+    margin: 15px;
+    display: flex;
+}
+
+.contenedor-offers div h4{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.contenedor-precios{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.contenedor-precios div{
+    align-items: center;
+}
+
+
+.contenedor-precios div img{
+    margin: 20px;
+}
+
+.Price{
+    display: block;
+    color: #111;
+}
+
+.contenedor-precios div p, h3, span, h5{
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.contenedor-precios div p{
+    font-size: 12px;
+}
+
+.contenedor-precios div h5{
+    display: inline;
+    text-align: center;
+}
+
+.contenedor-testimonials{
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 200px;
+    box-shadow: 5px 10px 20px 20px black;
+}
+
+.contenedor-testimonials h4, h2{
+    margin: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.contenedor-test{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-test ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-parts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container-parts div{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+.container-parts div span{
+    font-size: 70px;
+}
+
